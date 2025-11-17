@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+rasterio
+geopandas
+shapely
+scikit-image
+scikit-learn
+scipy
+requests
+asf-search
+pyproj
+jupyter
