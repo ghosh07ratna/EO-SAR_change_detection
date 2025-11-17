@@ -24,21 +24,21 @@ EO-SAR-Change-Detection/
 │   │       ├── pre/
 │   │       └── post/
 │   │
-│   ├── Processed/
-│   │   ├── sentinel_1/
-│   │   │   ├── pre/
-│   │   │   └── post/
-│   │   └── sentinel_2/
-│   │       ├── pre/
-│   │       └── post/
-│   │
-│   └── ROI
+│   └── ROI/
+│
+├── pre-processed_data/
+│   ├── sentinel_1/
+│   │   
+│   │   
+│   └── sentinel_2/
+│       
+│       
 │
 ├── notebooks/
 │   ├── change_detection_S1.ipynb
 │   ├── change_detection_s2.ipynb
 │   ├── data_acquisition_sentinel1.ipynb
-│   └── data_acquisition_sentinel2.ipynb
+│   ├── data_acquisition_sentinel2.ipynb
 │   └── pre_process_merging_band_s2.ipynb
 │
 ├── src/
@@ -50,11 +50,13 @@ EO-SAR-Change-Detection/
 │   └── pre_process_merging_band_s2.py
 │
 ├── output/
-│   ├── sentinel_1/
-│   └── sentinel_2/
+│   ├── sen_1/
+│   └── sen_2/
+│
 └── reports/
     ├── final_report.pdf
-    └── summary.md
+    
+
 ```
 
 ## 🛰️ 1. Data Acquisition (Automated)
