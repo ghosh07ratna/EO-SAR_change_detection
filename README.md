@@ -16,13 +16,8 @@ EO-SAR-Change-Detection/
 ├── requirements.txt
 │
 ├── data/
-│   ├── RAW/
-│   │   ├── sentinel_1/
-│   │   │   ├── pre/
-│   │   │   └── post/
-│   │   └── sentinel_2/
-│   │       ├── pre/
-│   │       └── post/
+│   ├── RAW/   *large file to upload     
+│   │       
 │   │
 │   └── ROI/
 │
